@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "title": "Websites en software voor groeiende bedrijven",
+    "description": "Een klein IT-team in Limburg. Doordachte websites, webapps en onderhoud voor bedrijven in heel Nederland."
+  },
+  "common": {
+    "skip": "Naar de inhoud",
+    "menu": "Navigatie openen",
+    "close": "Navigatie sluiten",
+    "language": "Taal kiezen",
+    "home": "Naar de homepage",
+    "arrow": "Project bekijken",
+    "placeholder": "Illustratief concept · geen klantproject",
+    "back": "Terug naar de homepage",
+    "required": "Verplicht",
+    "optional": "Optioneel"
+  },
+  "nav": {
+    "services": "Diensten",
+    "work": "Ons werk",
+    "about": "Over ons",
+    "contact": "Kennismaken"
+  },
+  "hero": {
+    "eyebrow": "UW LOKALE DIGITALE PARTNER",
+    "line1": "Sterke bedrijven.",
+    "line2": "Betere digitale",
+    "line3": "ervaringen.",
+    "description": "Wij ontwerpen en bouwen websites en software waarmee uw bedrijf verder kan. Persoonlijke aandacht. Heldere afspraken. Gebouwd voor de toekomst.",
+    "primary": "Bespreek uw project",
+    "secondary": "Bekijk onze diensten",
+    "note": "Een klein team. Korte lijnen. Vanuit Limburg.",
+    "visualLabel": "Een doordachte digitale ervaring",
+    "visualTop": "GEBOUWD ROND UW BEDRIJF",
+    "visualHeading": "Ruimte om te groeien.",
+    "visualFoot": "ONTWERP + ONTWIKKELING",
+    "visualBadge": "Van idee tot livegang",
+    "scroll": "ONTDEK MEER"
+  },
+  "services": {
+    "eyebrow": "01 / WAT WE DOEN",
+    "title": "Uw ambities.\nOnze expertise.",
+    "intro": "Van uw eerste website tot uw volgende digitale stap. Wij maken technologie begrijpelijk, zodat u zich op uw bedrijf kunt richten.",
+    "primary": "ONZE KERNEXPERTISE",
+    "web": {
+      "title": "Websites & webapps",
+      "description": "Snelle, toegankelijke websites, gebruiksvriendelijke webapps en webshops. Doordacht ontworpen en afgestemd op uw manier van werken.",
+      "tags": "Bedrijfswebsites · Webapplicaties · Webshops"
+    },
+    "maintenance": {
+      "title": "Onderhoud & support",
+      "description": "Updates, monitoring en een vertrouwd aanspreekpunt. Ook na de lancering houden wij uw website in goede conditie."
+    },
+    "mobile": {
+      "title": "Mobiele apps",
+      "description": "Praktische mobiele oplossingen voor uw klanten en uw team."
+    },
+    "security": {
+      "title": "Beveiliging",
+      "description": "Gerichte verbeteringen voor een stevigere digitale basis."
+    },
+    "network": {
+      "title": "Netwerkinrichting",
+      "description": "Een betrouwbare verbinding voor een productieve werkdag."
+    },
+    "partner": "Aanvullende expertise, waar nodig met vertrouwde partners.",
+    "cta": "Bespreek uw wensen"
+  },
+  "process": {
+    "eyebrow": "02 / ONZE AANPAK",
+    "title": "Helder vanaf het eerste gesprek.",
+    "intro": "Geen ingewikkelde overdrachten. Wel een praktische aanpak en een team dat u kent.",
+    "steps": [
+      {
+        "title": "Kennismaking",
+        "description": "Wij luisteren naar uw doelen, uw klanten en wat u nodig heeft."
+      },
+      {
+        "title": "Voorstel",
+        "description": "U ontvangt een helder plan, een realistische planning en een transparante offerte."
+      },
+      {
+        "title": "Realisatie",
+        "description": "Wij ontwerpen en ontwikkelen, met vaste momenten voor uw feedback."
+      },
+      {
+        "title": "Lancering & support",
+        "description": "Wij testen, lanceren en blijven betrokken bij de volgende stap."
+      }
+    ]
+  },
+  "work": {
+    "eyebrow": "03 / MOGELIJKHEDEN IN BEELD",
+    "title": "Kleine details.\nEen groter geheel.",
+    "intro": "Een indruk van wat wij kunnen maken. Dit zijn illustratieve concepten, die later plaatsmaken voor onze eerste klantprojecten.",
+    "concept": "CONCEPTPROJECT",
+    "studio": {
+      "title": "Een nieuwe plek voor een lokale studio",
+      "description": "Een uitnodigende bedrijfswebsite die van een eerste indruk een gesprek maakt.",
+      "category": "WEBDESIGN",
+      "mockTitle": "Ruimte voor\ngoede ideeën.",
+      "mockLabel": "STUDIO / CONCEPT"
+    },
+    "commerce": {
+      "title": "Een doordachte winkelervaring",
+      "description": "Een webshopconcept met een overzichtelijke route van ontdekken tot bestellen.",
+      "category": "E-COMMERCE",
+      "mockTitle": "Elke dag,\ngoed gemaakt.",
+      "mockLabel": "OBJECTEN / CONCEPT"
+    },
+    "platform": {
+      "title": "Minder administratie. Meer overzicht.",
+      "description": "Een helder webappconcept dat dagelijkse bedrijfstaken samenbrengt.",
+      "category": "WEBAPPLICATIE",
+      "mockTitle": "Een heldere\nwerkdag.",
+      "mockLabel": "WERKPLEK / CONCEPT"
+    }
+  },
+  "about": {
+    "eyebrow": "04 / DE MENSEN ACHTER DE CODE",
+    "title": "Drie mensen.\nEén gedeelde standaard.",
+    "description": "Wij zijn een klein team van ontwikkelaars en creatievelingen in Limburg. U heeft rechtstreeks contact met de mensen die uw project vormgeven, van de eerste schets tot de laatste regel code.",
+    "values": [
+      {
+        "title": "Betrouwbaar",
+        "description": "Wij maken realistische afspraken en komen die na."
+      },
+      {
+        "title": "Transparant",
+        "description": "Duidelijke communicatie, eerlijk advies en zichtbare voortgang."
+      },
+      {
+        "title": "Persoonlijk",
+        "description": "Uw bedrijf verdient aandacht. Wij nemen de tijd om het te begrijpen."
+      }
+    ],
+    "portrait": "Tijdelijke afbeelding voor teamlid",
+    "engineer": {
+      "name": "[TEAMLID 1]",
+      "role": "Full-stack ontwikkelaar"
+    },
+    "designer": {
+      "name": "[TEAMLID 2]",
+      "role": "Designer & social media"
+    },
+    "junior": {
+      "name": "[TEAMLID 3]",
+      "role": "Junior ontwikkelaar"
+    }
+  },
+  "contact": {
+    "eyebrow": "05 / LATEN WE KENNISMAKEN",
+    "title": "Uw volgende stap\nbegint met hallo.",
+    "intro": "Een idee, een vraag of een website die aandacht verdient? Vertel ons er iets over. Wij denken graag met u mee.",
+    "emailLabel": "MAIL ONS",
+    "locationLabel": "GEVESTIGD IN",
+    "location": "Limburg, Nederland",
+    "note": "Geen verkooppraatje. Gewoon een gesprek over wat u nodig heeft.",
+    "name": "Uw naam",
+    "email": "E-mailadres",
+    "company": "Bedrijf",
+    "phone": "Telefoonnummer",
+    "service": "Waarmee kunnen wij u helpen?",
+    "message": "Vertel ons over uw project",
+    "messagePlaceholder": "Uw idee, uw doelen of de uitdaging die u wilt oplossen…",
+    "select": "Kies een dienst",
+    "consentBefore": "Ik ga akkoord met het ",
+    "privacy": "privacybeleid",
+    "consentAfter": " voor de verwerking van mijn aanvraag.",
+    "submit": "Verstuur uw aanvraag",
+    "sending": "Uw aanvraag wordt verstuurd…",
+    "success": "Bedankt. Wij hebben uw aanvraag ontvangen.",
+    "reference": "Uw ticketnummer:",
+    "another": "Nog een aanvraag versturen",
+    "retry": "Probeer het opnieuw.",
+    "error": "Uw aanvraag kon niet worden verstuurd. Probeer het opnieuw of neem per e-mail contact op.",
+    "unavailable": "Het contactformulier is nog niet ingesteld. Gebruik het gepubliceerde e-mailadres zodra dit is toegevoegd.",
+    "rateLimit": "Te veel aanvragen. Probeer het over een uur opnieuw.",
+    "verification": "Rond de spamcontrole af.",
+    "confirmationDelayed": "Uw aanvraag is ontvangen, maar de bevestigingsmail kon niet worden verstuurd. Bewaar uw ticketnummer.",
+    "honeypot": "Laat dit veld leeg",
+    "count": "tekens",
+    "services": {
+      "website": "Website",
+      "webapp": "Webapp",
+      "mobile": "Mobiele app",
+      "security": "Beveiliging",
+      "network": "Netwerk",
+      "maintenance": "Onderhoud",
+      "other": "Overig"
+    },
+    "errors": {
+      "required": "Vul dit veld in.",
+      "email": "Vul een geldig e-mailadres in.",
+      "tooLong": "Dit veld is te lang.",
+      "invalid": "Vul een geldige waarde zonder regeleinden in.",
+      "messageMin": "Gebruik minimaal 10 tekens.",
+      "messageMax": "Gebruik maximaal 2.000 tekens.",
+      "consent": "Ga akkoord met het privacybeleid."
+    }
+  },
+  "footer": {
+    "description": "Doordacht digitaal werk.\nDicht bij huis gebouwd.",
+    "privacy": "Privacybeleid",
+    "terms": "Algemene voorwaarden",
+    "copyright": "Alle rechten voorbehouden.",
+    "kvk": "KvK",
+    "vat": "Btw",
+    "top": "Terug naar boven"
+  },
+  "legal": {
+    "notice": "CONCEPT — Vóór publicatie te beoordelen door een juridisch deskundige. Dit sjabloon is onvolledig en vormt geen juridisch advies.",
+    "updated": "Sjabloon opgesteld: november 2026",
+    "privacy": {
+      "title": "Privacybeleid",
+      "intro": "Dit concept beschrijft hoe [COMPANY NAME] aanvragen wil verwerken. Vervang alle tekst tussen blokhaken en controleer de feitelijke verwerking vóór publicatie.",
+      "sections": [
+        {
+          "title": "Wie is verantwoordelijk?",
+          "body": "[COMPANY NAME], [REGISTERED ADDRESS], [KVK NUMBER], is de beoogde verwerkingsverantwoordelijke. Contact: [PUBLIC EMAIL]. Vul de juiste rechtspersoon en eventuele vertegenwoordigers in."
+        },
+        {
+          "title": "Uw aanvraag",
+          "body": "Wij verwerken de naam, het e-mailadres, het bedrijf, het telefoonnummer en het bericht die u invult om uw aanvraag te beantwoorden. Bevestig de toepasselijke rechtsgrond voor aanvragen en eventuele latere contractuele verwerking. Het selectievakje registreert uw bevestiging; het vervangt geen beoordeling van de rechtsgrond."
+        },
+        {
+          "title": "Dienstverleners en doorgifte",
+          "body": "De website gebruikt [HOSTING PROVIDER] en Resend voor e-mail. Documenteer ook Upstash en Cloudflare Turnstile als deze zijn ingeschakeld. Controleer verwerkersovereenkomsten, subverwerkers, verwerkingslocaties en waarborgen voor internationale doorgifte."
+        },
+        {
+          "title": "Bewaartermijnen",
+          "body": "[BEPAAL BEWAARTERMIJNEN] voor aanvragen, e-mailcorrespondentie, beveiligingslogboeken en back-ups. Richt verwijderprocedures in die bij deze termijnen passen."
+        },
+        {
+          "title": "Cookies en statistieken",
+          "body": "Standaard zijn er geen advertentie- of trackingcookies actief. Een functionele NEXT_LOCALE-cookie onthoudt uw taal maximaal één jaar. Controleer bij gebruik van Plausible of Turnstile de instellingen, informatieplicht en eventuele toestemmingsvereisten."
+        },
+        {
+          "title": "Uw rechten",
+          "body": "U kunt waar van toepassing verzoeken om inzage, correctie, verwijdering, beperking, overdraagbaarheid of bezwaar maken. Neem contact op via [PUBLIC EMAIL]. U kunt ook een klacht indienen bij de Autoriteit Persoonsgegevens. Leg identiteitscontrole, reactietermijnen en eventuele beperkingen vast."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Algemene voorwaarden",
+      "intro": "Pas deze conceptvoorwaarden vóór gebruik aan op uw diensten, rechtspersoon en klantovereenkomsten.",
+      "sections": [
+        {
+          "title": "Toepasselijkheid en offertes",
+          "body": "Bepaal de contracterende partij, geldigheidsduur van offertes, aanvaardingsprocedure, op te leveren werk, uitsluitingen en rangorde van afspraken."
+        },
+        {
+          "title": "Planning en samenwerking",
+          "body": "Leg mijlpalen, verantwoordelijkheden van de klant, aanlevering van inhoud, goedkeuringstermijnen, toegankelijkheid, tests en wijzigingsprocedures vast."
+        },
+        {
+          "title": "Tarieven en betaling",
+          "body": "[BEPAAL BETALINGSTERMIJNEN, BTW, KOSTEN, TE LATE BETALING EN INDEXATIE]. Geef aan welke abonnementen van derden apart worden betaald."
+        },
+        {
+          "title": "Eigendom en licenties",
+          "body": "Bepaal wanneer intellectuele eigendomsrechten overgaan, welke rechten gelden voor klantinhoud en software van derden, en of portfoliogebruik is toegestaan."
+        },
+        {
+          "title": "Onderhoud en beveiliging",
+          "body": "Omschrijf updates, back-ups, reactietijden, supporturen en uitsluitingen. Beloof geen absolute veiligheid of beschikbaarheid. Gebruik waar nodig een aparte serviceovereenkomst."
+        },
+        {
+          "title": "Aansprakelijkheid en beëindiging",
+          "body": "[JURIDISCHE BEOORDELING NODIG] Bepaal passende aansprakelijkheidsgrenzen, verzekering, overmacht, opzegging, annuleringskosten, gegevensoverdracht en geschillenbeslechting volgens toepasselijk Nederlands recht."
+        }
+      ]
+    }
+  },
+  "email": {
+    "ticketPrefix": "Website ticket",
+    "receivedSubject": "Wij hebben uw aanvraag ontvangen",
+    "greeting": "Bedankt voor uw bericht.",
+    "body": "Wij hebben uw aanvraag ontvangen en nemen deze in behandeling. Bewaar dit ticketnummer voor uw administratie.",
+    "reference": "Ticketnummer",
+    "signoff": "Met vriendelijke groet,",
+    "name": "Naam",
+    "email": "E-mail",
+    "company": "Bedrijf",
+    "phone": "Telefoon",
+    "service": "Dienst",
+    "message": "Bericht",
+    "locale": "Taal bezoeker",
+    "timestamp": "Ontvangen op (UTC)",
+    "empty": "Niet opgegeven"
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "body": "Deze pagina is niet beschikbaar. Ga terug naar de homepage."
+  }
+}

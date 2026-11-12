@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "title": "Websites & software for growing businesses",
+    "description": "A small IT team in Limburg. Thoughtful websites, web apps and maintenance for businesses across the Netherlands."
+  },
+  "common": {
+    "skip": "Skip to content",
+    "menu": "Open navigation",
+    "close": "Close navigation",
+    "language": "Choose language",
+    "home": "Back to home",
+    "arrow": "Explore project",
+    "placeholder": "Illustrative concept · not client work",
+    "back": "Back to home",
+    "required": "Required",
+    "optional": "Optional"
+  },
+  "nav": {
+    "services": "Services",
+    "work": "Our work",
+    "about": "About us",
+    "contact": "Let’s talk"
+  },
+  "hero": {
+    "eyebrow": "YOUR LOCAL DIGITAL PARTNER",
+    "line1": "Good businesses.",
+    "line2": "Better digital",
+    "line3": "experiences.",
+    "description": "We design and build websites and software that help your business move forward. Personal attention. Clear agreements. Made to last.",
+    "primary": "Let’s talk about your project",
+    "secondary": "Explore our services",
+    "note": "A small team. A direct line. Based in Limburg.",
+    "visualLabel": "A considered digital experience",
+    "visualTop": "BUILT AROUND YOUR BUSINESS",
+    "visualHeading": "Room to grow.",
+    "visualFoot": "DESIGN + DEVELOPMENT",
+    "visualBadge": "From idea to launch",
+    "scroll": "SCROLL TO EXPLORE"
+  },
+  "services": {
+    "eyebrow": "01 / WHAT WE DO",
+    "title": "Your ambitions.\nOur expertise.",
+    "intro": "From your first website to your next digital step. We keep the technology clear, so you can focus on your business.",
+    "primary": "OUR CORE EXPERTISE",
+    "web": {
+      "title": "Websites & web apps",
+      "description": "Fast, accessible websites, intuitive web applications and webshops. Thoughtfully designed and built around the way you work.",
+      "tags": "Company websites · Web applications · Webshops"
+    },
+    "maintenance": {
+      "title": "Maintenance & support",
+      "description": "Updates, monitoring and a familiar person to call. We keep your website working well after launch."
+    },
+    "mobile": {
+      "title": "Mobile apps",
+      "description": "Useful mobile experiences for your customers and team."
+    },
+    "security": {
+      "title": "Security hardening",
+      "description": "Practical improvements that strengthen your digital foundations."
+    },
+    "network": {
+      "title": "Network setup",
+      "description": "A reliable connection for a productive working day."
+    },
+    "partner": "Additional expertise, with trusted partners where needed.",
+    "cta": "Discuss your needs"
+  },
+  "process": {
+    "eyebrow": "02 / THE PROCESS",
+    "title": "Clear from the first conversation.",
+    "intro": "No complicated handovers. Just a practical approach and a team you know.",
+    "steps": [
+      {
+        "title": "Intake",
+        "description": "We listen to your goals, your customers and what you need."
+      },
+      {
+        "title": "Proposal",
+        "description": "You receive a clear scope, timeline and transparent quote."
+      },
+      {
+        "title": "Build",
+        "description": "We design and develop, with regular moments for your feedback."
+      },
+      {
+        "title": "Launch & support",
+        "description": "We test, launch and stay close for the next chapter."
+      }
+    ]
+  },
+  "work": {
+    "eyebrow": "03 / SELECTED DIRECTIONS",
+    "title": "Small details.\nA bigger picture.",
+    "intro": "A glimpse of what we can build. These are illustrative concepts, ready to be replaced by our first case studies.",
+    "concept": "CONCEPT PROJECT",
+    "studio": {
+      "title": "A new home for a local studio",
+      "description": "An inviting company website that turns a first impression into a conversation.",
+      "category": "WEBSITE DESIGN",
+      "mockTitle": "Space for\ngood ideas.",
+      "mockLabel": "STUDIO / CONCEPT"
+    },
+    "commerce": {
+      "title": "A considered shopping experience",
+      "description": "A focused webshop concept with a simple path from discovery to checkout.",
+      "category": "E-COMMERCE",
+      "mockTitle": "Everyday,\nwell made.",
+      "mockLabel": "OBJECTS / CONCEPT"
+    },
+    "platform": {
+      "title": "Less admin. More overview.",
+      "description": "A clear web application concept that brings everyday business tasks together.",
+      "category": "WEB APPLICATION",
+      "mockTitle": "A clearer\nworking day.",
+      "mockLabel": "WORKSPACE / CONCEPT"
+    }
+  },
+  "about": {
+    "eyebrow": "04 / THE PEOPLE BEHIND THE CODE",
+    "title": "Three people.\nOne shared standard.",
+    "description": "We are a small team of builders and creatives based in Limburg. You work directly with the people shaping your project, from the first sketch to the final line of code.",
+    "values": [
+      {
+        "title": "Reliable",
+        "description": "We make realistic agreements and follow through."
+      },
+      {
+        "title": "Transparent",
+        "description": "Clear communication, honest advice and visible progress."
+      },
+      {
+        "title": "Personal",
+        "description": "Your business matters. We take the time to understand it."
+      }
+    ],
+    "portrait": "Team portrait placeholder",
+    "engineer": {
+      "name": "[TEAM MEMBER 1]",
+      "role": "Full-stack engineer"
+    },
+    "designer": {
+      "name": "[TEAM MEMBER 2]",
+      "role": "Designer & social media"
+    },
+    "junior": {
+      "name": "[TEAM MEMBER 3]",
+      "role": "Junior developer"
+    }
+  },
+  "contact": {
+    "eyebrow": "05 / LET’S START SOMETHING",
+    "title": "Your next step\nstarts with hello.",
+    "intro": "Have an idea, a question or a website that needs attention? Tell us a little about it. We’ll take it from there.",
+    "emailLabel": "WRITE TO US",
+    "locationLabel": "BASED IN",
+    "location": "Limburg, the Netherlands",
+    "note": "No sales pitch. Just a conversation about what you need.",
+    "name": "Your name",
+    "email": "Email address",
+    "company": "Company",
+    "phone": "Phone number",
+    "service": "What can we help you with?",
+    "message": "Tell us about your project",
+    "messagePlaceholder": "Your idea, your goals, or the challenge you would like to solve…",
+    "select": "Choose a service",
+    "consentBefore": "I agree to the ",
+    "privacy": "privacy policy",
+    "consentAfter": " for processing my enquiry.",
+    "submit": "Send your enquiry",
+    "sending": "Sending your enquiry…",
+    "success": "Thank you. Your enquiry has been received.",
+    "reference": "Your ticket reference:",
+    "another": "Send another enquiry",
+    "retry": "Please try again.",
+    "error": "We could not send your enquiry. Please try again or contact us by email.",
+    "unavailable": "The contact form is not configured yet. Please use the published contact email once it has been added.",
+    "rateLimit": "Too many enquiries. Please try again in one hour.",
+    "verification": "Please complete the spam verification.",
+    "confirmationDelayed": "Your enquiry is received, but the confirmation email could not be sent. Keep your ticket reference.",
+    "honeypot": "Leave this field empty",
+    "count": "characters",
+    "services": {
+      "website": "Website",
+      "webapp": "Web app",
+      "mobile": "Mobile app",
+      "security": "Security",
+      "network": "Network",
+      "maintenance": "Maintenance",
+      "other": "Other"
+    },
+    "errors": {
+      "required": "Please complete this field.",
+      "email": "Please enter a valid email address.",
+      "tooLong": "This field is too long.",
+      "invalid": "Please enter a valid value without line breaks.",
+      "messageMin": "Please enter at least 10 characters.",
+      "messageMax": "Please use no more than 2,000 characters.",
+      "consent": "Please agree to the privacy policy."
+    }
+  },
+  "footer": {
+    "description": "Thoughtful digital work.\nBuilt close to home.",
+    "privacy": "Privacy policy",
+    "terms": "Terms & conditions",
+    "copyright": "All rights reserved.",
+    "kvk": "KvK",
+    "vat": "VAT",
+    "top": "Back to top"
+  },
+  "legal": {
+    "notice": "DRAFT — To be reviewed by a legal professional before publication. This template is incomplete and is not legal advice.",
+    "updated": "Template prepared: November 2026",
+    "privacy": {
+      "title": "Privacy policy",
+      "intro": "This draft describes how [COMPANY NAME] intends to handle enquiries. Replace every bracketed item and confirm actual processing before launch.",
+      "sections": [
+        {
+          "title": "Who is responsible?",
+          "body": "[COMPANY NAME], [REGISTERED ADDRESS], [KVK NUMBER], is the proposed data controller. Contact: [PUBLIC EMAIL]. Add the correct legal entity and any representative details."
+        },
+        {
+          "title": "Your enquiry",
+          "body": "We process the name, email, company, phone number and message you provide to respond to your request. Confirm the applicable legal basis for enquiries and any later contractual processing. The checkbox records your acknowledgement; it does not replace a legal-basis assessment."
+        },
+        {
+          "title": "Service providers and transfers",
+          "body": "The site uses [HOSTING PROVIDER] and Resend for email. Optional Upstash rate limiting and Cloudflare Turnstile must be documented if enabled. Verify processor agreements, sub-processors, processing locations and international transfer safeguards."
+        },
+        {
+          "title": "Retention",
+          "body": "[DEFINE RETENTION PERIODS] for enquiries, email correspondence, security logs and backups. Configure deletion procedures that match these periods."
+        },
+        {
+          "title": "Cookies and analytics",
+          "body": "No advertising or tracking cookies are enabled by default. A functional NEXT_LOCALE cookie remembers your language for up to one year. If Plausible or Turnstile is enabled, review its configuration, disclosures and any applicable consent requirements."
+        },
+        {
+          "title": "Your rights",
+          "body": "You may request access, correction, erasure, restriction, portability or objection where applicable. Contact [PUBLIC EMAIL]. You may also complain to the Dutch Data Protection Authority (Autoriteit Persoonsgegevens). Specify identity checks, response procedures and any limitations."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms & conditions",
+      "intro": "These draft terms need to be adapted to your services, legal entity and customer contracts before use.",
+      "sections": [
+        {
+          "title": "Scope and proposals",
+          "body": "Define the contracting entity, offer validity, acceptance procedure, deliverables, exclusions and precedence between proposals and these terms."
+        },
+        {
+          "title": "Planning and collaboration",
+          "body": "Agree milestones, customer responsibilities, content delivery, approval periods, accessibility scope, testing and change-request procedures."
+        },
+        {
+          "title": "Fees and payments",
+          "body": "[DEFINE PAYMENT SCHEDULE, VAT, EXPENSES, LATE PAYMENT AND INDEXATION]. State which third-party subscriptions are paid separately."
+        },
+        {
+          "title": "Ownership and licences",
+          "body": "Specify intellectual property transfer conditions, rights to customer content, third-party software licences and any portfolio permissions."
+        },
+        {
+          "title": "Maintenance and security",
+          "body": "Describe included updates, backups, response windows, support hours and exclusions. Do not promise absolute security or availability. Use a separate service agreement where appropriate."
+        },
+        {
+          "title": "Liability and termination",
+          "body": "[LEGAL REVIEW REQUIRED] Define proportionate liability limits, insurance, force majeure, termination, cancellation fees, data handover and dispute resolution under applicable Dutch law."
+        }
+      ]
+    }
+  },
+  "email": {
+    "ticketPrefix": "Website ticket",
+    "receivedSubject": "We received your enquiry",
+    "greeting": "Thank you for getting in touch.",
+    "body": "We have received your enquiry and will review it. Please keep this ticket reference for your records.",
+    "reference": "Ticket reference",
+    "signoff": "Kind regards,",
+    "name": "Name",
+    "email": "Email",
+    "company": "Company",
+    "phone": "Phone",
+    "service": "Service",
+    "message": "Message",
+    "locale": "Visitor language",
+    "timestamp": "Received at (UTC)",
+    "empty": "Not provided"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "This page is unavailable. Return to the homepage to continue."
+  }
+}

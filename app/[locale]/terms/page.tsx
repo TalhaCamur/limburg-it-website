@@ -1,0 +1,5 @@
+import type {Metadata} from 'next';
+import {getTranslations,setRequestLocale} from 'next-intl/server';
+import Link from 'next/link';
+export async function generateMetadata({params}:{params:Promise<{locale:string}>}):Promise<Metadata>{const {locale}=await params;const t=await getTranslations({locale,namespace:'legal.terms'});return {title:t('title'),robots:{index:false,follow:true},alternates:{canonical:`/${locale}/terms`,languages:{nl:'/nl/terms',en:'/en/terms'}},openGraph:{title:t('title'),url:`/${locale}/terms`}};}
+export default async function Legal({params}:{params:Promise<{locale:string}>}){const {locale}=await params;setRequestLocale(locale);const t=await getTranslations();return <article className="legal container"><Link className="text-link" href={`/${locale}`}>← {t('common.back')}</Link><p className="eyebrow">{t('legal.updated')}</p><h1>{t('legal.terms.title')}</h1><p className="legal-notice">{t('legal.notice')}</p><p>{t('legal.terms.intro')}</p>{(t.raw('legal.terms.sections') as {title:string;body:string}[]).map(s=><section key={s.title}><h2>{s.title}</h2><p>{s.body}</p></section>)}</article>}

@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {contactSchema,clean} from '../lib/validation';
+import en from '../messages/en.json';
+import nl from '../messages/nl.json';
+const valid={name:'Ada',email:'ada@example.com',company:'',phone:'',service:'website',message:'A new company website, please.',consent:true,locale:'nl',website:''};
+test('valid enquiries and message boundaries',()=>{assert.equal(contactSchema.safeParse(valid).success,true);for(const n of [10,2000])assert.equal(contactSchema.safeParse({...valid,message:'a'.repeat(n)}).success,true);for(const n of [9,2001])assert.equal(contactSchema.safeParse({...valid,message:'a'.repeat(n)}).success,false);});
+test('rejects header injection, invalid email, missing consent and unsupported options',()=>{for(const change of [{name:'Ada\r\nBcc: x@example.com'},{email:'x@example.com\r\nCc: x@x.com'},{email:'not-mail'},{consent:false},{locale:'fr'},{service:'unknown'}])assert.equal(contactSchema.safeParse({...valid,...change}).success,false);});
+test('sanitizer removes control characters and retains international text',()=>assert.equal(clean('  Çamur\u0000 — hallo\nwereld  '),'Çamur — hallo\nwereld'));
+function keys(obj:object,prefix=''):string[]{return Object.entries(obj).flatMap(([key,value])=>value&&typeof value==='object'?keys(value,`${prefix}${key}.`):[prefix+key]).sort();}
+test('Dutch and English have identical translation keys',()=>assert.deepEqual(keys(nl),keys(en)));
+test('API rejects cross-origin, invalid JSON, invalid fields, oversized streams and unconfigured mail',async()=>{process.env.NEXT_PUBLIC_SITE_URL='http://localhost:3000';process.env.CONTACT_ENABLED='false';const {POST}=await import('../app/api/contact/route');const {NextRequest}=await import('next/server');const req=(body:string,origin='http://localhost:3000')=>new NextRequest('http://localhost:3000/api/contact',{method:'POST',headers:{origin,'content-type':'application/json'},body});assert.equal((await POST(req(JSON.stringify(valid),'https://bad.example'))).status,403);assert.equal((await POST(req('{'))).status,400);assert.equal((await POST(req('x'.repeat(17000)))).status,413);const invalid=await POST(req(JSON.stringify({...valid,consent:false})));assert.equal(invalid.status,400);assert.equal((await invalid.json()).errors.consent,'consent');const disabled=await POST(req(JSON.stringify(valid)));assert.equal(disabled.status,503);assert.equal((await disabled.json()).code,'unavailable');});
+test('rate limiter permits five attempts and blocks the sixth',async()=>{const {allowed}=await import('../lib/rate-limit');for(let i=0;i<5;i++)assert.equal(await allowed('rate-limit-test'),true);assert.equal(await allowed('rate-limit-test'),false);});
