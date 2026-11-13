@@ -393,3 +393,131 @@ p { color:var(--muted); }
     padding: 10% 7% 12%;
   }
 }
+
+/* Atelier Mergel — geniş mimari çizim */
+#work .showcase.studio {
+  display: grid;
+  align-content: center;
+  padding: 4% 6% 9%;
+  background: linear-gradient(155deg, #f3e6d0 0%, #d4ba98 70%, #b89d7f 100%);
+}
+
+#work .studio .browser-frame {
+  transform: rotate(-2deg);
+  box-shadow: 5px 18px 30px -14px rgb(60 43 27 / 40%);
+}
+
+#work .studio .sample-cover {
+  aspect-ratio: 2.65;
+}
+
+#work .studio .sample-head,
+#work .studio .sample-caption {
+  padding-block: 1.4%;
+}
+
+/* Veld Objects — sıcak ışık, ortalanmış katalog kapağı */
+#work .showcase.commerce {
+  display: grid;
+  place-items: center;
+  padding: 5% 9% 10%;
+  background:
+          radial-gradient(ellipse at 24% 15%, #fff0cf 0%, transparent 56%),
+          linear-gradient(135deg, #e9ceac, #ba8c6b);
+}
+
+#work .commerce .browser-frame {
+  width: 83%;
+  transform: rotate(2deg);
+  background: #fff8ea;
+  box-shadow: 12px 18px 25px -10px rgb(87 53 30 / 32%);
+}
+
+#work .commerce .browser-bar {
+  display: none;
+}
+
+#work .commerce .sample-head {
+  padding: 4% 6% 2%;
+}
+
+#work .commerce .sample-head b {
+  font-size: clamp(17px, 2.3vw, 34px);
+  letter-spacing: -0.045em;
+}
+
+#work .commerce .sample-cover {
+  margin-inline: 6%;
+  aspect-ratio: 2.2;
+  background: #e3c5ad;
+}
+
+#work .commerce .sample-caption {
+  padding: 2% 6% 4%;
+}
+
+/* Weekblad — takvimde gün sütunları ve randevu blokları */
+#work .showcase.platform {
+  display: grid;
+  align-content: center;
+  padding: 6% 7% 10%;
+  background: linear-gradient(140deg, #dce6dd, #a2bdb3);
+}
+
+#work .platform .browser-frame {
+  box-shadow: 0 16px 32px -16px rgb(28 61 54 / 42%);
+}
+
+#work .platform .sample-cover {
+  aspect-ratio: 2.6;
+}
+
+#work .platform .schedule-art {
+  gap: 1px;
+  padding: 1px;
+  background: #cbd8cf;
+}
+
+#work .platform .schedule-art i {
+  background: #f6f8f1;
+}
+
+#work .platform .schedule-art .booked {
+  margin: 2px 3px;
+  border-radius: 3px;
+  border-left: 3px solid #416f63;
+  background: #b6d0c3;
+}
+
+#work .platform .schedule-art .booked:nth-child(3n + 2) {
+  border-color: #a56342;
+  background: #e9c5a9;
+}
+
+/* Fareyle incelerken çerçeve hafifçe doğrulur. */
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  #work .showcase .browser-frame {
+    transition: transform 350ms ease-out;
+  }
+
+  #work .showcase:hover .browser-frame {
+    transform: translateY(-3px) rotate(0deg);
+  }
+}
+
+/* Telefonda küçük detaylara daha fazla alan ver. */
+@media (max-width: 740px) {
+  #work .showcase.studio,
+  #work .showcase.commerce,
+  #work .showcase.platform {
+    padding: 6% 5% 12%;
+  }
+
+  #work .commerce .browser-frame {
+    width: 92%;
+  }
+
+  #work .platform .schedule-art .booked {
+    margin: 1px;
+  }
+}
