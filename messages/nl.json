@@ -95,22 +95,22 @@
     "intro": "Een indruk van wat wij kunnen maken. Dit zijn illustratieve concepten, die later plaatsmaken voor onze eerste klantprojecten.",
     "concept": "CONCEPTPROJECT",
     "studio": {
-      "title": "Een nieuwe plek voor een lokale studio",
-      "description": "Een uitnodigende bedrijfswebsite die van een eerste indruk een gesprek maakt.",
+      "title": "Atelier Mergel",
+      "description": "Een portfolio waarin bezoekers een woning kunnen bekijken op hun telefoon en op een groot scherm.",
       "category": "WEBDESIGN",
       "mockTitle": "Ruimte voor\ngoede ideeën.",
       "mockLabel": "STUDIO / CONCEPT"
     },
     "commerce": {
-      "title": "Een doordachte winkelervaring",
-      "description": "Een webshopconcept met een overzichtelijke route van ontdekken tot bestellen.",
+      "title": "Veld Objects",
+      "description": "Een collectie keramiek met ruimte voor materiaal, vorm en productdetails.",
       "category": "E-COMMERCE",
       "mockTitle": "Elke dag,\ngoed gemaakt.",
       "mockLabel": "OBJECTEN / CONCEPT"
     },
     "platform": {
-      "title": "Minder administratie. Meer overzicht.",
-      "description": "Een helder webappconcept dat dagelijkse bedrijfstaken samenbrengt.",
+      "title": "Weekblad",
+      "description": "Een weekoverzicht dat afspraken van een klein team bij elkaar brengt.",
       "category": "WEBAPPLICATIE",
       "mockTitle": "Een heldere\nwerkdag.",
       "mockLabel": "WERKPLEK / CONCEPT"
@@ -292,5 +292,56 @@
   "notFound": {
     "title": "Pagina niet gevonden",
     "body": "Deze pagina is niet beschikbaar. Ga terug naar de homepage."
+  },
+  "redesign": {
+    "location": "Webdesignstudio · Limburg",
+    "headline": "Websites met karakter.",
+    "headlineEnd": "Gebouwd in Limburg.",
+    "intro": "Wij ontwerpen websites, webshops en applicaties voor het mkb. U werkt rechtstreeks met de mensen die uw site ontwerpen, bouwen en onderhouden.",
+    "work": "Ontwerpconcepten",
+    "workIntro": "Drie voorbeelden van wat wij kunnen bouwen. Elk ontwerp is een studie uit onze eigen studio.",
+    "servicesIntro": "Wat heeft uw bedrijf nodig? Open een dienst en bekijk wat wij voor u kunnen doen.",
+    "process": "Zo werken wij",
+    "teamLink": "Maak kennis met de studio",
+    "contactTitle": "Vertel ons over uw project.",
+    "contactIntro": "Wat wilt u met uw website bereiken? Een paar zinnen zijn genoeg voor een eerste gesprek.",
+    "aboutTitle": "Een studio van drie in Limburg.",
+    "aboutIntro": "Voor ondernemers in de regio brengen wij ontwerp en ontwikkeling samen. U maakt vanaf het eerste gesprek kennis met de mensen die aan uw project werken.",
+    "people": "Wie doet wat?",
+    "together": "Rechtstreeks contact met uw team.",
+    "togetherIntro": "Voor de start spreken we af wat we bouwen en wat het kost. U ziet het werk tijdens de ontwikkeling en bepaalt samen met ons welk onderhoud na de lancering nodig is.",
+    "roles": {
+      "engineer": "Bepaalt de technische aanpak, bouwt de applicatie en koppelt de systemen waarmee uw bedrijf werkt.",
+      "designer": "Ontwerpt de visuele identiteit en pagina’s en zorgt dat uw website en sociale kanalen bij elkaar passen.",
+      "junior": "Werkt de interface uit, controleert wijzigingen op verschillende schermen en helpt na de lancering met het onderhoud."
+    },
+    "samples": {
+      "studio": {
+        "brand": "Atelier Mergel",
+        "line": "Een huis in het heuvelland",
+        "caption": "Architectuurportfolio · Ontwerpstudie"
+      },
+      "commerce": {
+        "brand": "Veld Objects",
+        "line": "De keramiekcollectie",
+        "caption": "Keramiekwebshop · Ontwerpstudie"
+      },
+      "platform": {
+        "brand": "Weekblad",
+        "line": "De studioplanning",
+        "caption": "Planningsapplicatie · Ontwerpstudie"
+      }
+    },
+    "selectWork": "Kies een ontwerpconcept",
+    "categories": {
+      "studio": "Portfolio",
+      "commerce": "Webshop",
+      "platform": "Webapp"
+    },
+    "approach": {
+      "studio": "Het beeld krijgt voorrang. Een korte projecttekst geeft context zonder de architectuur uit het oog te verliezen.",
+      "commerce": "Vorm en glazuur staan naast elkaar in beeld, zodat een koper de stukken al vóór het bestellen kan vergelijken.",
+      "platform": "Afspraken staan per dag bij elkaar. Vrije plekken blijven zichtbaar, zodat een planner snel ziet waar nog ruimte is."
+    }
   }
 }

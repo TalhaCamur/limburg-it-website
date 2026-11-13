@@ -2,6 +2,8 @@
 
 A complete bilingual marketing-site source project for a three-person Dutch IT company. Next.js App Router, TypeScript, Tailwind CSS v4, next-intl, Zod, Resend, Lucide, and optional Upstash/Turnstile. Intended deployment: Vercel with the Node.js contact route.
 
+The separate team profiles are at `/nl/about` and `/en/about`. The homepage, portfolio, services, process and contact are available in both languages. Limburg IT Studio is the editable working name. The project previews are original illustrative concepts.
+
 ## Local setup
 
 Use Node.js 22 LTS or newer.
@@ -27,7 +29,7 @@ The default contact form is intentionally disabled. Set credentials and `CONTACT
 
 | Location | Purpose |
 | --- | --- |
-| `app/[locale]/page.tsx` | Single-page sections |
+| `app/[locale]/page.tsx` | Homepage: work, services, process and contact |
 | `app/[locale]/globals.css` | Design tokens, layouts, responsive and dark themes |
 | `app/[locale]/privacy`, `terms` | Localized legal drafts; noindex until reviewed |
 | `app/api/contact/route.ts` | Validation, spam protection, ticketing and emails |
@@ -40,9 +42,9 @@ The default contact form is intentionally disabled. Set credentials and `CONTACT
 | `lib/rate-limit.ts` | Optional shared Redis limiter; local fallback |
 | `tests/` | Validation, translation parity, delivery and API tests |
 
-Edit both translation JSON files together. Project IDs in `content/company.ts` map to `work.<id>` text in each locale. Team IDs map to `about.<id>`. Technical project tags stay in the data file. There are no fabricated testimonials or clients: all three work examples visibly say concept. Portraits are abstract CSS placeholders, not real people; no bitmap images or stock photos are downloaded. When replacing these with real photos, use `next/image` with explicit dimensions, appropriate `sizes`, and translated alt text.
+Edit both translation JSON files together. Project IDs in `content/company.ts` map to `work.<id>` text in each locale. Team IDs map to `about.<id>`. Technical project tags stay in the data file. There are no fabricated testimonials or clients: all three work examples visibly say concept. Team members appear as role descriptions on the About page; no bitmap images or stock photos are downloaded. When replacing these with real photos, use `next/image` with explicit dimensions, appropriate `sizes`, and translated alt text.
 
-Colors live in CSS variables and Tailwind tokens: off-white/grey, near-black and one restrained deep teal accent. Geist is loaded through `next/font`. Motion is limited to entry/hover transitions, with reduced-motion support. Dark mode follows the operating system. Components use semantic headings, labels, error descriptions, keyboard focus states and live status announcements.
+Colors live in CSS variables and Tailwind tokens: linen, petrol and apricot. Geist is loaded through `next/font`. Motion is limited to entry/hover transitions, with reduced-motion support. Dark mode follows the operating system. Components use semantic headings, labels, error descriptions, keyboard focus states and live status announcements.
 
 ## Email setup and domain verification
 
@@ -74,7 +76,7 @@ No live email was sent during development. Delivery tests mock the Resend HTTP r
 4. Add your domain, complete DNS configuration, deploy and verify `/nl`, `/en`, both legal routes, `/robots.txt`, `/sitemap.xml`, HTTPS and both email flows.
 5. Enable shared Upstash limits before accepting public traffic. Verify Turnstile if enabled. Configure Resend event monitoring and a support mailbox.
 
-Do not use static export for this project: the API route and locale negotiation require server functionality. The project has not been deployed to Vercel from this workspace; no Vercel account or production secrets were supplied. The available preview host expects a different runtime, so no incompatible deployment was substituted.
+The included GitHub Pages workflow creates a static edition with direct email contact. Use the full Next.js build on your custom domain to enable the server contact endpoint. The project has not been deployed to Vercel from this workspace; no Vercel account or production secrets were supplied. The available preview host expects a different runtime, so no incompatible deployment was substituted.
 
 Official references:
 - https://resend.com/docs/dashboard/domains/introduction
@@ -85,7 +87,7 @@ Official references:
 
 - `[COMPANY NAME]`, `[CITY]`, `[PUBLIC EMAIL]`, `[KVK NUMBER]`, `[VAT NUMBER]` in `content/company.ts`.
 - Company positioning/tagline, SEO titles/descriptions and both language versions of copy as needed. Current copy uses the supplied service brief; no final brand name was invented.
-- Three team names, approved real portraits/alt text and accurate roles.
+- Confirm the team descriptions and add approved names and portraits when available.
 - Three illustrative projects with authorized case-study content; retain concept labels until real projects exist.
 - `NEXT_PUBLIC_SITE_URL`, receiving address, verified sending address and Resend key; optional Upstash, Turnstile and analytics settings.
 - Legal identity, registered address, data processors, retention periods, actual legal bases, fees, service commitments, liability terms and every bracketed legal placeholder. Get professional review, then remove draft banners and `robots: {index:false}` on legal pages.

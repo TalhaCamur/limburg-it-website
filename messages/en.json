@@ -95,22 +95,22 @@
     "intro": "A glimpse of what we can build. These are illustrative concepts, ready to be replaced by our first case studies.",
     "concept": "CONCEPT PROJECT",
     "studio": {
-      "title": "A new home for a local studio",
-      "description": "An inviting company website that turns a first impression into a conversation.",
+      "title": "Atelier Mergel",
+      "description": "An architectural portfolio that lets visitors explore a home on a phone or a large screen.",
       "category": "WEBSITE DESIGN",
       "mockTitle": "Space for\ngood ideas.",
       "mockLabel": "STUDIO / CONCEPT"
     },
     "commerce": {
-      "title": "A considered shopping experience",
-      "description": "A focused webshop concept with a simple path from discovery to checkout.",
+      "title": "Veld Objects",
+      "description": "A ceramic collection with room for material, shape and product details.",
       "category": "E-COMMERCE",
       "mockTitle": "Everyday,\nwell made.",
       "mockLabel": "OBJECTS / CONCEPT"
     },
     "platform": {
-      "title": "Less admin. More overview.",
-      "description": "A clear web application concept that brings everyday business tasks together.",
+      "title": "Weekblad",
+      "description": "A shared weekly view of appointments for a small team.",
       "category": "WEB APPLICATION",
       "mockTitle": "A clearer\nworking day.",
       "mockLabel": "WORKSPACE / CONCEPT"
@@ -292,5 +292,56 @@
   "notFound": {
     "title": "Page not found",
     "body": "This page is unavailable. Return to the homepage to continue."
+  },
+  "redesign": {
+    "location": "Web design studio · Limburg",
+    "headline": "Websites with character.",
+    "headlineEnd": "Built in Limburg.",
+    "intro": "We design websites, webshops and applications for small businesses. You work directly with the people who design, build and look after your site.",
+    "work": "Selected concepts",
+    "workIntro": "Three examples of the work we can build. Each is an in-house design study.",
+    "servicesIntro": "Start with what you need today. Open a service to see what it includes.",
+    "process": "Working with us",
+    "teamLink": "Meet the studio",
+    "contactTitle": "Tell us about your project.",
+    "contactIntro": "What would you like your website to do for your business? A few lines are enough to start.",
+    "aboutTitle": "A three-person studio in Limburg.",
+    "aboutIntro": "We bring design and development together for local businesses. The people you speak to at the start are the people doing the work.",
+    "people": "Who does what",
+    "together": "A direct line to your team.",
+    "togetherIntro": "We agree on scope and cost before building, show you the work in progress and decide together what happens after launch.",
+    "roles": {
+      "engineer": "Plans the technical approach, builds the application and connects the services your business uses.",
+      "designer": "Shapes the visual identity and page layouts, and helps your website and social channels feel consistent.",
+      "junior": "Builds interface details, checks changes on different screens and helps maintain the site after launch."
+    },
+    "samples": {
+      "studio": {
+        "brand": "Atelier Mergel",
+        "line": "A house in the hills",
+        "caption": "Architecture portfolio · Design study"
+      },
+      "commerce": {
+        "brand": "Veld Objects",
+        "line": "The clay collection",
+        "caption": "Ceramics webshop · Design study"
+      },
+      "platform": {
+        "brand": "Weekblad",
+        "line": "The studio schedule",
+        "caption": "Scheduling application · Design study"
+      }
+    },
+    "selectWork": "Choose a design study",
+    "categories": {
+      "studio": "Portfolio",
+      "commerce": "Online shop",
+      "platform": "Web app"
+    },
+    "approach": {
+      "studio": "The image comes first. A short project note gives visitors context while keeping the architecture in view.",
+      "commerce": "Shape and glaze appear side by side, so a buyer can compare pieces before placing an order.",
+      "platform": "Appointments sit together by day. Open slots stay visible so a planner can see where the next booking fits."
+    }
   }
 }
