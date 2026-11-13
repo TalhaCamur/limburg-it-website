@@ -1,11 +1,17 @@
 import Link from 'next/link';
-import { ArrowDown, ArrowUpRight, Plus } from 'lucide-react';
+import { ArrowDown, ArrowUpRight, FilePenLine, LifeBuoy, MessagesSquare, PanelsTopLeft, Plus } from 'lucide-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { ContactForm } from '@/components/contact-form';
+import { HomeMotion } from '@/components/home-motion';
+import { PaperSculpture } from '@/components/paper-sculpture';
 import { ProjectPreview } from '@/components/project-preview';
 import { WorkSelector } from '@/components/work-selector';
 import { projects } from '@/content/company';
+
+import './home-motion.css';
+
+const stepIcons = [MessagesSquare, FilePenLine, PanelsTopLeft, LifeBuoy];
 
 type HomeProps = {
   params: Promise<{ locale: string }>;
@@ -33,7 +39,7 @@ export default async function Home({ params }: HomeProps) {
   }));
 
   return (
-      <>
+      <HomeMotion key={locale}>
         <section className="agency-opening">
           <div className="container editorial-opening">
             <div className="opening-copy">
@@ -72,7 +78,7 @@ export default async function Home({ params }: HomeProps) {
         <section id="work" className="portfolio band">
           <div className="container">
             <div className="section-title">
-              <h2>{t('redesign.work')}</h2>
+              <h2 data-reveal>{t('redesign.work')}</h2>
               <p>{t('redesign.workIntro')}</p>
             </div>
 
@@ -82,7 +88,7 @@ export default async function Home({ params }: HomeProps) {
 
         <section id="services" className="container service-list band">
           <div className="section-title">
-            <h2>{t('nav.services')}</h2>
+            <h2 data-reveal>{t('nav.services')}</h2>
             <p>{t('redesign.servicesIntro')}</p>
           </div>
 
@@ -110,34 +116,51 @@ export default async function Home({ params }: HomeProps) {
 
         <section id="process" className="process band">
           <div className="container">
-            <h2>{t('redesign.process')}</h2>
+            <div className="process-intro">
+              <div>
+                <h2 data-reveal>{t('redesign.process')}</h2>
+                <Link className="text-link" href={`/${locale}/about`}>
+                  {t('redesign.teamLink')}
+                  <ArrowUpRight size={16} aria-hidden="true" />
+                </Link>
+              </div>
+              <div className="process-print" aria-hidden="true"><PaperSculpture /></div>
+            </div>
 
-            <ol>
-              {steps.map((step) => (
+            <ol className="step-deck" role="list">
+              {steps.map((step, index) => {
+                const Icon = stepIcons[index];
+                return (
                   <li key={step.title}>
-                    <h3>{step.title}</h3>
-                    <p>{step.description}</p>
+                    <span className="step-number" aria-hidden="true">
+                      {String(index + 1).padStart(2, '0')}
+                    </span>
+                    <div className="step-copy">
+                      <h3>{step.title}</h3>
+                      <p>{step.description}</p>
+                    </div>
+                    {Icon && (
+                      <div className="step-sketch" aria-hidden="true">
+                        <Icon size={64} strokeWidth={1.1} />
+                      </div>
+                    )}
                   </li>
-              ))}
+                );
+              })}
             </ol>
-
-            <Link className="text-link" href={`/${locale}/about`}>
-              {t('redesign.teamLink')}
-              <ArrowUpRight size={16} aria-hidden="true" />
-            </Link>
           </div>
         </section>
 
         <section id="contact" className="container band">
           <div className="contact-wrap">
             <div>
-              <h2>{t('redesign.contactTitle')}</h2>
+              <h2 data-reveal>{t('redesign.contactTitle')}</h2>
               <p>{t('redesign.contactIntro')}</p>
             </div>
 
             <ContactForm />
           </div>
         </section>
-      </>
+      </HomeMotion>
   );
 }
